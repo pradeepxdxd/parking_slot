@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.card-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 600px;
+    /* border: 1px solid black; */
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 2rem;
+}
+
+.numbers{
+    padding: 1rem;
+    margin: 1rem ;
+    /* border: 1px solid black; */
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
